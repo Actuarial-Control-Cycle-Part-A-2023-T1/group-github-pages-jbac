@@ -46,6 +46,19 @@ Throughout both the short and long term, the programs expenses will be monitored
 
 ---
 
+# Pricing/Costs
+
+Considering the current world is still heavily dependent on fossil fuels, when factoring the costs associated with the program these will fall under an SSP5 Scenario. The following results were obtained after 100,000 simulations by using Palisade’s @Risk tool.
+
+##Costs of the Program
+
+As observed, the costs of the program are increasing exponentially over time. In the short term, the average costs are around Ꝕ 5-6 billion, eventually reaching an excess of Ꝕ 10 billion in the long term. In a 1% worst case scenario, these costs can reach upwards of 2.5 times the mean.
+
+
+
+
+---
+
 # Assumptions 
 ## Key Assumptions 
 ![image](https://user-images.githubusercontent.com/113432792/230566497-dbb39785-6b3c-42a5-9c5a-dcdb9d8a6628.png)
