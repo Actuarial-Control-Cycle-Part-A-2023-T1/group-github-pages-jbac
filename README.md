@@ -35,10 +35,10 @@ It was found with >90% certainty that economic costs would be cheaper with the p
 ## Objectives
 ### Effective and Equitable Relocation Insurance
 This program should reduce Storslysia’s expected costs arising from climate-related displacement. This will be achieved by covering costs associated with relocation – adjusted to account for geographic risk and socio-economic status. It should be noted that the intention of the program is to not act as a house and contents or life insurance program - we encourage the public to seek private insurance for this purpose. 
-The National Flood Insurance Program (NFIP) in the United States, which is in USD 20 billion of debt, has struggled to remain solvent primarily due to its inability to accurately predict the increase of flood frequency and severity due to climate change (Ma, 2022). Thus, to bolster the long-run viability of our program, we have resolved this uncertainty by factoring the effect of climate change into our claim modelling.
+The National Flood Insurance Program (NFIP) in the United States has compromised its solvency due to the failure to accurately predict the increase of flood frequency and severity due to climate change (Ma, 2022). Thus, we have resolved this uncertainty by factoring the effect of climate change into our own claim modelling.
 
 ### Incentivising Voluntary Relocation
-Proactive, voluntary relocation is much cheaper for Storslysia to fund in comparison to ad hoc involuntary relocation arising from a natural peril. This is due to the additional costs of replacing items and fixing damages incurred from disaster (Adeagbo et al., 2016), as well as 0-50% increases in housing and relocation costs after weather event induced demand increases. Thus, successfully incentivizing year-round proactive relocation from higher to lower-risk regions is a critical aspect of our program - not only to reduce economic costs but also to shield the population from displacement risk exposure.  
+Proactive, voluntary relocation is much cheaper for Storslysia to fund in comparison to ad hoc involuntary relocation arising from a natural peril. This is due to the additional costs of replacing items and fixing damages incurred from disaster (Adeagbo et al., 2016). Thus, successfully incentivizing year-round proactive relocation from higher to lower-risk regions is a critical aspect of our program.
 
 ## Monitoring Program Success
 The program’s claim cost model (see Appendix) automatically reports predicted economic costs to Storslysia with and without the program. This will help to distinguish if savings will be produced. Additionally, the program cost will be evaluated with respect to Storslysia’s gross domestic product (GDP). The claim cost model distributes the predicted yearly model costs. 
@@ -98,6 +98,28 @@ As observed in Figures 5 and 6, the projected voluntary costs associated with th
 # Assumptions 
 ## Key Assumptions 
 ![image](https://user-images.githubusercontent.com/113432792/230566497-dbb39785-6b3c-42a5-9c5a-dcdb9d8a6628.png)
+
+---
+
+# Risk & Risk Mitigation Considerations
+![image](https://user-images.githubusercontent.com/113652496/230648873-d6ae0df0-b1f9-4381-b471-aae15bb30633.png)
+### Risk A - Fraud Risk
+Wherever insurance is offered, the unscrupulous will seek to profiteer through various forms of insurance fraud. Citizens may falsify evidence of relocation such as rental agreements or housing titles. Claimants may falsify medical documents to claim injury or intentionally damage their primary residence as grounds for involuntary relocation coverage. This is mitigated via appropriate loss adjustment. 
+### Risk B - Basis Risk
+Lower risk-free rates would decrease the return on funds set aside as reserves, requiring more funding to meet future costs. High than expected inflation rates would increase the Ꝕ cost of future yearly expenses.  Higher than-expected population growth in Storslysia will increase future yearly claim counts and hence the costs of the program. To mitigate this risk, Storslysia must fund and maintain yearly reserves to a 99% Value-at-Risk level of 28.9 billion as outlined in section 3.3.  
+### Risk C - Climate Risk
+Climate change may have a stronger link to natural peril frequency or severity than which is assumed by the model, increasing claim counts beyond expectations.  
+### Risk D - Geographic Risk
+Incentives to voluntarily relocate may concentrate Storslysia’s population within attractive low-risk regions. This will expose a greater number of lives to perils within these regions, increasing loss burdens to Storslysia (Smolka & Hollnack, 2008). 
+
+## Sensitivity Analysis
+When considering the cost to Storslysia without the program, an analysis has been conducted on the additional costs if the program were to not be introduced. In the analysis, it is assumed that those seeking voluntary claims are predominantly individuals at higher risk of displacement (Islam, 2018). Thus, a uniform distribution between 0.5 and 1 is considered when simulating the proportion of those, that would otherwise undertake voluntary relocation, that would be forced to relocate if disaster struck without the program. This was done under all 4 SSP scenarios.
+
+In the short term, there is greater than a 10% chance (although minimal) that relocation costs are cheaper without the program. However, as the world changes over the program’s time horizon, so too will its SSP scenario. Overall, it was determined with high certainty that economic costs to Storslysia without the proposed program are greater, especially in the long run. 
+![image](https://user-images.githubusercontent.com/113652496/230649685-b9b0baa7-44cc-4098-8bdf-47330a817867.png)
+
+Now considering the program’s costs as a percentage of GDP, the results are positive. Across all SSP scenarios (Figures 12-15), there was less than a 0.10% chance that costs exceeded 10% of GDP in any given year. 
+![image](https://user-images.githubusercontent.com/113652496/230650277-7bb5d5b4-2b1a-45b1-a612-2be77336d507.png)
 
 ---
 
