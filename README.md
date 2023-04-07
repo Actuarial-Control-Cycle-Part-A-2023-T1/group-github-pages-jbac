@@ -50,12 +50,28 @@ Throughout both the short and long term, the programs expenses will be monitored
 
 Considering the current world is still heavily dependent on fossil fuels, when factoring the costs associated with the program these will fall under an SSP5 Scenario. The following results were obtained after 100,000 simulations by using Palisade’s @Risk tool.
 
-##Costs of the Program
+## Costs of the Program
 
 As observed, the costs of the program are increasing exponentially over time. In the short term, the average costs are around Ꝕ 5-6 billion, eventually reaching an excess of Ꝕ 10 billion in the long term. In a 1% worst case scenario, these costs can reach upwards of 2.5 times the mean.
 
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/113604900/230582848-573d8a23-dc8b-4978-803b-f54ec4e1fb2f.png">
 
+## Costs Without the Program
 
+Without the program it is projected that on average, Storslysia exhibits additional costs (Figure 3). These additional costs are exponential over time similar to the costs of the actual program, although are increasing at a higher rate. Whilst the costs of the program roughly double over the period of the scheme, the additional costs increase by a factor of 10 over the same time horizon.
+
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/113604900/230583143-e63185c2-1f9f-46c3-be4f-e1061876fb38.png">
+
+## Solvency
+
+Figure 4 demonstrates the maximum cost exhibited for any year for each simulation. In a 99% worst case scenario, the program cost Ꝕ 28.9 billion. So long as this amount is kept reserved for the program each year, there is a strong certainty that the program will remain solvent. This reserve is needed to alleviate liquidity risk associated with the timing mismatch between tax revenues and program costs (Kessler, 2014).
+
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/113604900/230583257-b343417c-00e8-4489-ba43-95a9bc264979.png">
+
+## Contrast of Voluntary and Involuntary Costs
+As observed in Figures 5 and 6, the projected voluntary costs associated with the program are consistently higher than involuntary costs. On average, these voluntary costs are 4 times higher than those involuntary, and this appears consistent across the projected timeline.
+
+<img width="1000" alt="image" src="https://user-images.githubusercontent.com/113604900/230583454-6f3a219e-8c97-456e-803f-19868eeafce7.png">
 
 ---
 
