@@ -22,7 +22,9 @@ This is written in markdown language.
 
 More information on GitHub Pages can be found [here](https://pages.github.com/)
 ![](Actuarial.gif)
+
 ---
+
 # Program Design
 ![image](https://user-images.githubusercontent.com/113432792/230565499-7e6e4910-d5eb-498c-8892-651024c564ae.png)
 ## Involuntary Relocation 
@@ -41,13 +43,20 @@ Finally, a major incentive introduced, is subsidising 25% of the property value 
 For Involuntary relocation a claim may be made by a claimant for relocation if either their property damage exceeds at least 25% of their property value or serious injury/death has been inflicted due to a climate related event. It was assumed that these trigger events were a reasonable reason for relocation after a disaster. Whilst for voluntary relocation a claimant must provide evidence that they are relocating their primary residence to a safer region such as a down payment on a new house. A loss adjuster and home inspector will be sent to ensure a fair claim has been made for both scenarios.Due to the nature of voluntary payouts, only two voluntary claims can be made every ten years.
 ## Short and Long Term Program Evaluation 
 Throughout both the short and long term, the programs expenses will be monitored yearly to evaluate its ability to reduce Storslysia’s economic costs and be below 10% of the nation’s GDP. In the short term, the voluntary relocation rate will be monitored (as this is likely when the majority of relocation will occur) to not only ensure that program is effective but ensure that economic costs will be accurately predicted. In the long term, the programs’ ability to economically sustain the increase in natural disasters due to climate change will be evaluated.
+
 ---
+
 # Assumptions 
 ## Key Assumptions 
 ![image](https://user-images.githubusercontent.com/113432792/230566497-dbb39785-6b3c-42a5-9c5a-dcdb9d8a6628.png)
+
+---
+
 # Data and Data Limitations 
 ## Data Limitations 
 Lack of granular information on Storslysia on a yearly basis (such as population size and exchange rate), severely hampered the ability to utilise any linear or generalised linear model to predict Natural Hazard Events. Instead, fitting a distribution using maximum likelihood estimation, which would not be as accurate, had to be used. Next, as regional data was only provided for 2020, it was impossible to determine the economic trends that would occur including population growth and socioeconomic status. As a result, strongassumptions had to be made regarding these variablesas discussed in section 4. Additionally, anerroneous valuewas listed for the 2003 Ꝕinflation rate whereas no data was provided for the 1960 and 1961 Ꝕinflation rates –these data points were restored using the geometric mean of the remaining year’s rates. Extreme outliers existed in the provided hazard property damage data –these were evaluated to be legitimate losses arising from particularly catastrophic perils and retained.
+
 ---
+
 ## External Data
 Australian interstate migration data was used to predict relocation rates to desirable regions and general population migration. Australian data was utilised on account of the similar population size, number of states and population distribution within states.It is recommended that Storslysia collects internal inter-region migrationdata effective immediately. The provided claim count model will allow for the convenient incorporationof new data from Storslysia’s realised migration experience–nothing else needs to be changed. 
