@@ -25,6 +25,26 @@ More information on GitHub Pages can be found [here](https://pages.github.com/)
 
 ---
 
+# Executive Summary
+This social insurance program to manage Storslysia’s exposure to displacement risk associated with the country’s unique susceptibility to catastrophic climate-related events. This program is designed to have a high probability of reducing the economic cost to Storslysia by incentivising proactive, voluntary relocation, whilst also aiding the welfare of citizens displaced by inevitable climate catastrophe - under a wide range of climate-change scenarios.  
+
+Australian interstate migration data is leveraged to estimate future costs of the program arising from voluntary relocation, whereas Storslysia’s historical data regarding property damage, injury, and death arising from climate disasters enhances estimates of involuntary-displacement costs. 
+
+It was found with >90% certainty that economic costs would be cheaper with the program than without. It has been recommended that an initial Ꝕ 28.9 billion is set to ensure a 99% chance of remaining solvent year-to-year. Furthermore, the probability that year-to-year program costs exceed 10% of Storslysia’s current GDP is ~0.10%. All such figures are calculated under a worst-case climate scenario.
+
+## Objectives
+###Effective and Equitable Relocation Insurance
+This program should reduce Storslysia’s expected costs arising from climate-related displacement. This will be achieved by covering costs associated with relocation – adjusted to account for geographic risk and socio-economic status. It should be noted that the intention of the program is to not act as a house and contents or life insurance program - we encourage the public to seek private insurance for this purpose. 
+The National Flood Insurance Program (NFIP) in the United States, which is in USD 20 billion of debt, has struggled to remain solvent primarily due to its inability to accurately predict the increase of flood frequency and severity due to climate change (Ma, 2022). Thus, to bolster the long-run viability of our program, we have resolved this uncertainty by factoring the effect of climate change into our claim modelling.
+
+###Incentivising Voluntary Relocation
+Proactive, voluntary relocation is much cheaper for Storslysia to fund in comparison to ad hoc involuntary relocation arising from a natural peril. This is due to the additional costs of replacing items and fixing damages incurred from disaster (Adeagbo et al., 2016), as well as 0-50% increases in housing and relocation costs after weather event induced demand increases. Thus, successfully incentivizing year-round proactive relocation from higher to lower-risk regions is a critical aspect of our program - not only to reduce economic costs but also to shield the population from displacement risk exposure.  
+
+##Monitoring Program Success
+The program’s claim cost model (see Appendix) automatically reports predicted economic costs to Storslysia with and without the program. This will help to distinguish if savings will be produced. Additionally, the program cost will be evaluated with respect to Storslysia’s gross domestic product (GDP). The claim cost model distributes the predicted yearly model costs. 
+
+---
+
 # Program Design
 ![image](https://user-images.githubusercontent.com/113432792/230565499-7e6e4910-d5eb-498c-8892-651024c564ae.png)
 ## Involuntary Relocation 
