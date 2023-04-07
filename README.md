@@ -22,3 +22,11 @@ This is written in markdown language.
 
 More information on GitHub Pages can be found [here](https://pages.github.com/)
 ![](Actuarial.gif)
+# Program Design 
+## Involuntary Relocation 
+### Percentage of Lump Sum Payment 
+The lump sum payment,calculated yearly, will be given on a per person basis and will cover costs for transportation, health care, accommodation, and retail sales for a year to help relocate. The lump sum payment has been intentionally set to ensure only necessities can be provided. It was found in the Earthquake Commission in New Zealand that a cap-based sum insured policy attracted a large private insurance market to cover excess claims (Earthquake Commission 2019). Hence, if citizens desire further cover, they will be recommended to search for private insurers. This will reduce the heavy financial pressure that will impact the government if extreme amounts are paid out.
+
+As seen in table above(Figure 1),all claimants must relocate to a safer region and the percentage of the total lump sum claimants are eligible for, will be according to the region they move to and its associated risk for natural disasters. This is in place to encourage those relocating,to move to the lowest risk region and thus lower the chance of the individual having to relocate again.
+### 15% of New Property Purchase Subsidised 
+On top of the lump sum payment to cover costs, 15% of the new property purchased will be subsidized according to the location of relocation.This was introduced to assist families during the difficult financial and mental distress that is associated with relocating. The subsidy will be the same percentage irrespective of the region that claimants are relocating to.Only one property subsidy can be claimed per household.
