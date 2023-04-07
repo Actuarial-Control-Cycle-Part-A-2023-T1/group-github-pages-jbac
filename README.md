@@ -89,3 +89,89 @@ Lack of granular information on Storslysia on a yearly basis (such as population
 
 ## External Data
 Australian interstate migration data was used to predict relocation rates to desirable regions and general population migration. Australian data was utilised on account of the similar population size, number of states and population distribution within states.It is recommended that Storslysia collects internal inter-region migrationdata effective immediately. The provided claim count model will allow for the convenient incorporationof new data from Storslysia’s realised migration experience–nothing else needs to be changed. 
+
+---
+---
+---
+
+# Appendix
+
+## General Assumptions
+
+<img width="827" alt="image" src="https://user-images.githubusercontent.com/113604900/230585397-66a9e608-8610-4088-a112-8744ae90ea60.png">
+
+## Assumptions Affecting Modelling of Claim Rate
+
+<img width="827" alt="image" src="https://user-images.githubusercontent.com/113604900/230585558-8daaae13-5197-45ec-a4a9-d0d5838cb4ce.png">
+
+## Assumptions Affecting Claim Cost and Property Severity
+
+<img width="826" alt="image" src="https://user-images.githubusercontent.com/113604900/230585680-573ce135-c543-4779-bb00-45b52d2bb243.png">
+
+## Visualisations for Sensitivity Analysis
+
+<img width="858" alt="image" src="https://user-images.githubusercontent.com/113604900/230585830-4048dd7c-02a5-4315-96d0-51e8262ca60d.png">
+
+<img width="842" alt="image" src="https://user-images.githubusercontent.com/113604900/230585881-bb7a588d-2ecf-4bfc-b0b1-9b8d93644c24.png">
+
+## Modelling and Input Processes
+
+### World Growth Factors
+
+World growth rates for each year were regressed according to the data provided. This included population, worldwide GDP, and the Risk Amplification Factor (RAF). The data provided had limited data, having estimates every 10 years for each SSP scenario. In R, quadratic regression was used to estimate values for each year, and so then growth factors could then be obtained. A GDP per capita factor was obtained by dividing the GDP growth factor by the population growth factor.
+
+### Per Capita Cost Inputs
+
+Cost inputs for the lump sum payment of our model included accommodation, food service, health care, social assistance, transportation, warehousing and retail sales. Since the data provided 2017 costs, these prices were inflated to 2020 values and divided by the 2020 population to obtain the cost per capita. The GDP per capita growth factor was then used to project these costs over time.
+
+### Voluntary Lump Sum Payment
+
+For voluntary claims, a lump sum payment is provided to each household that makes a claim. The value of this payment is equal to the total per capita costs inputs for that year, multiplied by a factor of 1.5.
+
+### Involuntary Lump Sum Payment
+
+For involuntary claims, a lump sum payment is provided to each claim that is made. The value of this payment is equal to the total per capita costs input for that year. There is no adjustment multiplication factor, unlike the lump sum payment from voluntary claims.
+
+### Number of Hazard Events
+
+The number of hazard encountered for each region per year was extracted from the dataset. A gamma, exponential, and lognormal distribution was used to fit the number of hazard events in a year per region. Of the three distributions, a Kolmogorov–Smirnov test showed the best fit for each region. 10,000 random sample distributions were used, and KS tests were conducted on each. Whichever gave the largest average p-value was the distribution chosen. In excel and using Palisade’s @Risk tool, these distributions were then used to simulate the number of hazard events in the year, across the duration of the program. The parameters of the distribution changed over time by multiplying the relevant RAF, attempting to model an increasing frequency of events as time progresses.
+
+### Property Value
+
+From the data provided, a distribution of each region’s property value could be modelled. A continuous probability density function was applied to model the associated price of each house for each region.
+
+### Number of Fatalities, Injuries and Property Damage
+
+The data provided the fatalities, injuries, and property damage values per event over time. For property damage, inflation factors derived from the data were used in order to find its 2021 cost. 
+
+For all three considerations, no conventional models fit the data well enough, so exponential fits were chosen. By then separately estimating the exponential rate parameter for each region’s fatalities, injuries and property damage, the results were transferred to Excel where the @Risk tool was used to simulate the expected severity after each event. 
+
+### Involuntary Claims
+
+When determining the expected number of claims arising from a hazard event per region a few inputs are used. The predicted property damage was divided by the simulated property value, to get the number of full houses destroyed by the event. This was multiplied by a factor of 4 assuming that damage exceeding 25% of the property value would result in a claim. Another set of claims were derived from the fatalities per event, which was then multiplied the average people per household minus 1. This assumed that whenever a death from a household occurred, the other members would make a claim to relocate. Finally, the number of injuries per event was multiplied by the number of people in each household. Assuming that when a serious injury occurred, all people in the household file a claim. All these numbers are on a per event basis, and so were finally multiplied by the simulated number of events in that region for the year.
+
+### Voluntary Claims
+
+To determine the number of voluntary claims per year, the yearly population was multiplied by the proportion of individuals moving to a more at-risk region. These proportions were calculated based off Australian relocation data.
+
+---
+
+# References
+
+Ma, M 2022, Can the National Flood Insurance Program survive its growing debts?, Policygenius. 
+
+Harvey, C 2018, CO2 Can Directly Impact Extreme Weather, Research Suggests, Scientific American. 
+
+Congressional Research Service 2023, Introduction to the National Flood Insurance Program (NFIP) Introduction to the National Flood Insurance Program (NFIP), 6 January. 
+
+Kessler, D., 2014. Why (re) insurance is not systemic. Journal of Risk and Insurance, 81(3), pp.477-488. 
+
+Earthquake Commission 2019, Briefing to the Incoming Minister Responsible for the Earthquake Commission. 
+
+Adeagbo, A., Daramola, A., Carim-Sanni, A., Akujobi, C. and Ukpong, C., 2016. Effects of natural disasters on social and economic well being: A study in Nigeria. International journal of disaster risk reduction, 17, pp.1-12. 
+
+Smolka, A. and Hollnack, D., 2008. Risk Management for Natural Perils–The View of a Global Reinsurer. Geomechanik und Tunnelbau: Geomechanik und Tunnelbau, 1(2), pp.103-111.  
+
+Derrig, R.A., 2002. Insurance fraud. Journal of Risk and Insurance, 69(3), pp.271-287. 
+
+Islam, M.R. and Khan, N.A., 2018. Threats, vulnerability, resilience and displacement among the climate change and natural disaster-affected people in South-East Asia: an overview. Journal of the Asia Pacific Economy, 23(2), pp.297-323.
