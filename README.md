@@ -1,48 +1,9 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-8d59dc4de5201274e310e4c54b9627a8934c3b88527886e3b421487c677d23eb.svg)](https://classroom.github.com/a/elzutNYu)
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-f4981d0f882b2a3f0472912d15f9806d57e124e0fc890972558857b51b24a6f9.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=10744326)
-# Actuarial Theory and Practice A @ UNSW
+# ACTL4001  - SOA Group Project - Team: JBAC
 
-_"Tell me and I forget. Teach me and I remember. Involve me and I learn" - Benjamin Franklin_
+Team Members: Jacob Boghos, Alex Cameron, Stephin Robinson
 
 ---
-
-### Congrats on completing the [2023 SOA Research Challenge](https://www.soa.org/research/opportunities/2023-student-research-case-study-challenge/)!
-
->Now it's time to build your own website to showcase your work.  
->To create a website on GitHub Pages to showcase your work is very easy.
-
-This is written in markdown language. 
->
-* Click [link](https://classroom.github.com/a/elzutNYu) to accept your group assignment.
-
-
-#### Follow the [guide doc](Doc1.pdf) to submit your work. 
 ---
->Be creative! Feel free to link to embed your [data](hazard-event-data.csv), [code](sample-data-clean.ipynb), [image](unsw.png) here
-
-More information on GitHub Pages can be found [here](https://pages.github.com/)
-![](Actuarial.gif)
-
----
-
-# Executive Summary
-This social insurance program to manage Storslysia’s exposure to displacement risk associated with the country’s unique susceptibility to catastrophic climate-related events. This program is designed to have a high probability of reducing the economic cost to Storslysia by incentivising proactive, voluntary relocation, whilst also aiding the welfare of citizens displaced by inevitable climate catastrophe - under a wide range of climate-change scenarios.  
-
-Australian interstate migration data is leveraged to estimate future costs of the program arising from voluntary relocation, whereas Storslysia’s historical data regarding property damage, injury, and death arising from climate disasters enhances estimates of involuntary-displacement costs. 
-
-It was found with >90% certainty that economic costs would be cheaper with the program than without. It has been recommended that an initial Ꝕ 28.9 billion is set to ensure a 99% chance of remaining solvent year-to-year. Furthermore, the probability that year-to-year program costs exceed 10% of Storslysia’s current GDP is ~0.10%. All such figures are calculated under a worst-case climate scenario.
-
-## Objectives
-### Effective and Equitable Relocation Insurance
-This program should reduce Storslysia’s expected costs arising from climate-related displacement. This will be achieved by covering costs associated with relocation – adjusted to account for geographic risk and socio-economic status. It should be noted that the intention of the program is to not act as a house and contents or life insurance program - we encourage the public to seek private insurance for this purpose. 
-The National Flood Insurance Program (NFIP) in the United States has compromised its solvency due to the failure to accurately predict the increase of flood frequency and severity due to climate change (Ma, 2022). Thus, we have resolved this uncertainty by factoring the effect of climate change into our own claim modelling.
-
-### Incentivising Voluntary Relocation
-Proactive, voluntary relocation is much cheaper for Storslysia to fund in comparison to ad hoc involuntary relocation arising from a natural peril. This is due to the additional costs of replacing items and fixing damages incurred from disaster (Adeagbo et al., 2016). Thus, successfully incentivizing year-round proactive relocation from higher to lower-risk regions is a critical aspect of our program.
-
-## Monitoring Program Success
-The program’s claim cost model (see Appendix) automatically reports predicted economic costs to Storslysia with and without the program. This will help to distinguish if savings will be produced. Additionally, the program cost will be evaluated with respect to Storslysia’s gross domestic product (GDP). The claim cost model distributes the predicted yearly model costs. 
-
 ---
 
 # Program Design
