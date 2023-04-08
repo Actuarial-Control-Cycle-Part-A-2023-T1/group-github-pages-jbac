@@ -26,16 +26,16 @@ Team Members: Jacob Boghos, Alex Cameron, Stephin Robinson
 - [Assumptions](#assumptions)
   * [Key Assumptions](#key-assumptions)
 - [Risk & Risk Mitigation Considerations](#risk---risk-mitigation-considerations)
-    + [Risk A - Fraud Risk](#risk-a---fraud-risk)
-    + [Risk B - Basis Risk](#risk-b---basis-risk)
-    + [Risk C - Climate Risk](#risk-c---climate-risk)
-    + [Risk D - Geographic Risk](#risk-d---geographic-risk)
+  * [Risk Ranks](#risk-ranks)
   * [Sensitivity Analysis](#sensitivity-analysis)
 - [Data and Data Limitations](#data-and-data-limitations)
   * [Data Limitations](#data-limitations)
   * [External Data](#external-data)
 - [Appendix](#appendix)
 - [References](#references)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 ---
 ---
@@ -124,7 +124,7 @@ Wherever insurance is offered, the unscrupulous will seek to profiteer through v
 #### Risk B - Basis Risk
 Lower risk-free rates would decrease the return on funds set aside as reserves, requiring more funding to meet future costs. High than expected inflation rates would increase the Ꝕ cost of future yearly expenses.  Higher than-expected population growth in Storslysia will increase future yearly claim counts and hence the costs of the program. To mitigate this risk, Storslysia must fund and maintain yearly reserves to a 99% Value-at-Risk level of 28.9 billion as outlined in section 3.3.  
 #### Risk C - Climate Risk
-Climate change may have a stronger link to natural peril frequency or severity than which is assumed by the model, increasing claim counts beyond expectations.  
+Climate change may have a stronger link to natural peril frequency or severity than which is assumed by the model, increasing claim counts beyond expectations. This is mitigated by adjusting the sensitivity of the link between climate change and natural peril distributions within the model to best match experience as it develops.  
 #### Risk D - Geographic Risk
 Incentives to voluntarily relocate may concentrate Storslysia’s population within attractive low-risk regions. This will expose a greater number of lives to perils within these regions, increasing loss burdens to Storslysia (Smolka & Hollnack, 2008). 
 
