@@ -13,7 +13,9 @@ Australian interstate migration data is leveraged to estimate future costs of th
 
 It was found with >90% certainty that economic costs would be cheaper with the program than without. It has been recommended that an initial Ꝕ 28.9 billion is set to ensure a 99% chance of remaining solvent year-to-year. Furthermore, the probability that year-to-year program costs exceed 10% of Storslysia’s current GDP is ~0.10%. All such figures are calculated under a worst-case climate scenario.
 
-## Objectives
+---
+
+# Objectives
 ### Effective and Equitable Relocation Insurance
 This program should reduce Storslysia’s expected costs arising from climate-related displacement. This will be achieved by covering costs associated with relocation – adjusted to account for geographic risk and socio-economic status. It should be noted that the intention of the program is to not act as a house and contents or life insurance program - we encourage the public to seek private insurance for this purpose. 
 The National Flood Insurance Program (NFIP) in the United States has compromised its solvency due to the failure to accurately predict the increase of flood frequency and severity due to climate change (Ma, 2022). Thus, we have resolved this uncertainty by factoring the effect of climate change into our own claim modelling.
