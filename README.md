@@ -1,6 +1,6 @@
 # ACTL4001  - SOA Group Project - Team: JBAC
 
-**Team Members: Jacob Boghos, Alex Cameron, Stephin Robinson**
+*Team Members: Jacob Boghos, Alex Cameron, Stephin Robinson*
 
 
 # Table of Contents
