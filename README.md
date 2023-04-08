@@ -3,6 +3,55 @@
 Team Members: Jacob Boghos, Alex Cameron, Stephin Robinson
 
 ---
+- [ACTL4001  - SOA Group Project - Team: JBAC](#actl4001----soa-group-project---team--jbac)
+- [Executive Summary](#executive-summary)
+- [Objectives](#objectives)
+    + [Effective and Equitable Relocation Insurance](#effective-and-equitable-relocation-insurance)
+    + [Incentivising Voluntary Relocation](#incentivising-voluntary-relocation)
+  * [Monitoring Program Success](#monitoring-program-success)
+- [Program Design](#program-design)
+  * [Involuntary Relocation](#involuntary-relocation)
+    + [Percentage of Lump Sum Payment](#percentage-of-lump-sum-payment)
+    + [15% of New Property Purchase Subsidised](#15--of-new-property-purchase-subsidised)
+  * [Voluntary Relocation Incentives](#voluntary-relocation-incentives)
+    + [100% Of Lump Sum Payment Per Household](#100--of-lump-sum-payment-per-household)
+    + [25% of New Property Purchase Subsidised](#25--of-new-property-purchase-subsidised)
+  * [Trigger Points](#trigger-points)
+  * [Short and Long Term Program Evaluation](#short-and-long-term-program-evaluation)
+- [Pricing/Costs](#pricing-costs)
+  * [Costs of the Program](#costs-of-the-program)
+  * [Costs Without the Program](#costs-without-the-program)
+  * [Solvency](#solvency)
+  * [Contrast of Voluntary and Involuntary Costs](#contrast-of-voluntary-and-involuntary-costs)
+- [Assumptions](#assumptions)
+  * [Key Assumptions](#key-assumptions)
+- [Risk & Risk Mitigation Considerations](#risk---risk-mitigation-considerations)
+    + [Risk A - Fraud Risk](#risk-a---fraud-risk)
+    + [Risk B - Basis Risk](#risk-b---basis-risk)
+    + [Risk C - Climate Risk](#risk-c---climate-risk)
+    + [Risk D - Geographic Risk](#risk-d---geographic-risk)
+  * [Sensitivity Analysis](#sensitivity-analysis)
+- [Data and Data Limitations](#data-and-data-limitations)
+  * [Data Limitations](#data-limitations)
+  * [External Data](#external-data)
+- [Appendix](#appendix)
+  * [General Assumptions](#general-assumptions)
+  * [Assumptions Affecting Modelling of Claim Rate](#assumptions-affecting-modelling-of-claim-rate)
+  * [Assumptions Affecting Claim Cost and Property Severity](#assumptions-affecting-claim-cost-and-property-severity)
+  * [Visualisations for Sensitivity Analysis](#visualisations-for-sensitivity-analysis)
+  * [Modelling and Input Processes](#modelling-and-input-processes)
+    + [World Growth Factors](#world-growth-factors)
+    + [Per Capita Cost Inputs](#per-capita-cost-inputs)
+    + [Voluntary Lump Sum Payment](#voluntary-lump-sum-payment)
+    + [Involuntary Lump Sum Payment](#involuntary-lump-sum-payment)
+    + [Number of Hazard Events](#number-of-hazard-events)
+    + [Property Value](#property-value)
+    + [Number of Fatalities, Injuries and Property Damage](#number-of-fatalities--injuries-and-property-damage)
+    + [Involuntary Claims](#involuntary-claims)
+    + [Voluntary Claims](#voluntary-claims)
+- [References](#references)
+
+---
 ---
 ---
 
@@ -95,10 +144,10 @@ Incentives to voluntarily relocate may concentrate Storslysia’s population wit
 ## Sensitivity Analysis
 When considering the cost to Storslysia without the program, an analysis has been conducted on the additional costs if the program were to not be introduced. In the analysis, it is assumed that those seeking voluntary claims are predominantly individuals at higher risk of displacement (Islam, 2018). Thus, a uniform distribution between 0.5 and 1 is considered when simulating the proportion of those, that would otherwise undertake voluntary relocation, that would be forced to relocate if disaster struck without the program. This was done under all 4 SSP scenarios.
 
-In the short term, there is greater than a 10% chance (although minimal) that relocation costs are cheaper without the program. However, as the world changes over the program’s time horizon, so too will its SSP scenario. Overall, it was determined with high certainty that economic costs to Storslysia without the proposed program are greater, especially in the long run. 
+In the short term, there is greater than a 10% chance (although minimal) that relocation costs are cheaper without the program. However, as the world changes over the program’s time horizon, so too will its SSP scenario. Across all four SSP climate scenarios, there is a notable benefit of implementing the program, as the additional costs without the program increase. Overall, it was determined with high certainty that economic costs to Storslysia without the proposed program are greater, especially in the long run. 
 ![image](https://user-images.githubusercontent.com/113652496/230649685-b9b0baa7-44cc-4098-8bdf-47330a817867.png)
 
-Now considering the program’s costs as a percentage of GDP, the results are positive. Across all SSP scenarios (Figures 12-15), there was less than a 0.10% chance that costs exceeded 10% of GDP in any given year. 
+Now considering the program’s costs as a percentage of GDP, the results are positive. Across all SSP scenarios (Figures 12-15), there was less than a 0.10% chance that costs exceeded 10% of GDP in any given year. Additionally, in all cases except SSP3, costs as a percentage of GDP decreased over time. This would be related to a combination of factors, however primarily to the added benefit of voluntary movers now living in lower risk regions while GDP inflates. These visualisations can be found in the Appendix.
 ![image](https://user-images.githubusercontent.com/113652496/230650277-7bb5d5b4-2b1a-45b1-a612-2be77336d507.png)
 
 ---
