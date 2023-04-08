@@ -1,6 +1,7 @@
 # ACTL4001  - SOA Group Project - Team: JBAC
 
 *Team Members: Jacob Boghos, Alex Cameron, Stephin Robinson*
+
 *The University of New South Wales*
 
 # Table of Contents
