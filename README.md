@@ -1,9 +1,8 @@
 # ACTL4001  - SOA Group Project - Team: JBAC
 
-Team Members: Jacob Boghos, Alex Cameron, Stephin Robinson
+**Team Members: Jacob Boghos, Alex Cameron, Stephin Robinson**
 
----
-
+# Table of Contents
 - [Executive Summary](#executive-summary)
 - [Objectives](#objectives)
     + [Effective and Equitable Relocation Insurance](#effective-and-equitable-relocation-insurance)
