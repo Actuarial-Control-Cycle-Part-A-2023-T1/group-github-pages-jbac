@@ -35,20 +35,6 @@ Team Members: Jacob Boghos, Alex Cameron, Stephin Robinson
   * [Data Limitations](#data-limitations)
   * [External Data](#external-data)
 - [Appendix](#appendix)
-  * [General Assumptions](#general-assumptions)
-  * [Assumptions Affecting Modelling of Claim Rate](#assumptions-affecting-modelling-of-claim-rate)
-  * [Assumptions Affecting Claim Cost and Property Severity](#assumptions-affecting-claim-cost-and-property-severity)
-  * [Visualisations for Sensitivity Analysis](#visualisations-for-sensitivity-analysis)
-  * [Modelling and Input Processes](#modelling-and-input-processes)
-    + [World Growth Factors](#world-growth-factors)
-    + [Per Capita Cost Inputs](#per-capita-cost-inputs)
-    + [Voluntary Lump Sum Payment](#voluntary-lump-sum-payment)
-    + [Involuntary Lump Sum Payment](#involuntary-lump-sum-payment)
-    + [Number of Hazard Events](#number-of-hazard-events)
-    + [Property Value](#property-value)
-    + [Number of Fatalities, Injuries and Property Damage](#number-of-fatalities--injuries-and-property-damage)
-    + [Involuntary Claims](#involuntary-claims)
-    + [Voluntary Claims](#voluntary-claims)
 - [References](#references)
 
 ---
@@ -132,13 +118,14 @@ As observed in Figures 5 and 6, the projected voluntary costs associated with th
 
 # Risk & Risk Mitigation Considerations
 ![image](https://user-images.githubusercontent.com/113652496/230648873-d6ae0df0-b1f9-4381-b471-aae15bb30633.png)
-### Risk A - Fraud Risk
+## Risk Ranks
+#### Risk A - Fraud Risk
 Wherever insurance is offered, the unscrupulous will seek to profiteer through various forms of insurance fraud. Citizens may falsify evidence of relocation such as rental agreements or housing titles. Claimants may falsify medical documents to claim injury or intentionally damage their primary residence as grounds for involuntary relocation coverage. This is mitigated via appropriate loss adjustment. 
-### Risk B - Basis Risk
+#### Risk B - Basis Risk
 Lower risk-free rates would decrease the return on funds set aside as reserves, requiring more funding to meet future costs. High than expected inflation rates would increase the Ꝕ cost of future yearly expenses.  Higher than-expected population growth in Storslysia will increase future yearly claim counts and hence the costs of the program. To mitigate this risk, Storslysia must fund and maintain yearly reserves to a 99% Value-at-Risk level of 28.9 billion as outlined in section 3.3.  
-### Risk C - Climate Risk
+#### Risk C - Climate Risk
 Climate change may have a stronger link to natural peril frequency or severity than which is assumed by the model, increasing claim counts beyond expectations.  
-### Risk D - Geographic Risk
+#### Risk D - Geographic Risk
 Incentives to voluntarily relocate may concentrate Storslysia’s population within attractive low-risk regions. This will expose a greater number of lives to perils within these regions, increasing loss burdens to Storslysia (Smolka & Hollnack, 2008). 
 
 ## Sensitivity Analysis
